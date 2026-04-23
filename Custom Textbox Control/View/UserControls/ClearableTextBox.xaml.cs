@@ -22,5 +22,10 @@ namespace Custom_Textbox_Control.View.UserControls
         {
             InitializeComponent();
         }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
