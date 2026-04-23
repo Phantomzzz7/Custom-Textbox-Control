@@ -14,11 +14,11 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-
         </Grid.RowDefinitions>
-        <userControls:ClearableTextBox Grid.Row="1" Width="250" Height="40"/>
-        <userControls:ClearableTextBox Grid.Row="2" Width="250" Height="40"/>
-        <userControls:ClearableTextBox Grid.Row="3" Width="250" Height="40"/>
-        <userControls:ClearableTextBox Grid.Row="4" Width="250" Height="40"/>
+        <TextBlock Grid.Row="0" Text="User Information" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10"/>
+        <userControls:ClearableTextBox Grid.Row="1" Width="250" Height="40" PlaceHolder="First Name"/>
+        <userControls:ClearableTextBox Grid.Row="2" Width="250" Height="40" PlaceHolder="Last Name"/>
+        <userControls:ClearableTextBox Grid.Row="3" Width="250" Height="40" PlaceHolder="Email"/>
+        <userControls:ClearableTextBox Grid.Row="4" Width="250" Height="40" PlaceHolder="Phone"/>
     </Grid>
 </Window>
